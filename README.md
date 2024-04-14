@@ -15,8 +15,8 @@
 
 ### Step Comparison
 
-![alt text](img/image.png)
-![alt text](img/image-1.png)
+![10k](img/image.png)
+![500](img/image-1.png)
 
 
 We can see that letting the network train for more steps generates more realistic results (as expected) and the FID [*Lower better*] attests to this.
