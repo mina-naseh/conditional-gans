@@ -13,7 +13,7 @@
 - It has been shown that FID is consistent with human judgments and is more robust to noise than IS (Inception Score)
 - Generated samples move into a feature space with Inception Net (or any CNN). Viewing the embeddings as a continuous multivariate Gaussian, the mean and covariance are estimated for both the generated data and the real data. Then FID is the distance between the real distribution and the generated one
 
-### Step Comparison
+### Step Comparison in pix2pix model
 
 ![10k](img/image.png)
 ![500](img/image-1.png)
