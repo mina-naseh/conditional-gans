@@ -20,3 +20,7 @@
 
 
 We can see that letting the network train for more steps generates more realistic results (as expected) and the FID [*Lower better*] attests to this.
+
+### CycleGAN
+We also used [CycleGAN](https://www.tensorflow.org/tutorials/generative/cyclegan) to train on maps dataset, and we got a better FID with this method. CycleGAN is constructed based on [Pix2Pix](https://www.tensorflow.org/tutorials/generative/pix2pix). It uses an additional loss function named cycle consistency loss which makes it able to train without paired data.
+![12epoch](img/image-2.png)
